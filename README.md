@@ -38,7 +38,8 @@ A MySQL-Driver for Go's [database/sql](https://golang.org/pkg/database/sql/) pac
   * Secure `LOAD DATA LOCAL INFILE` support with file Whitelisting and `io.Reader` support
   * Optional `time.Time` parsing
   * Optional placeholder interpolation
-
+  * Dump to fetch binlog events
+ 
 ## Requirements
   * Go 1.9 or higher. We aim to support the 3 latest versions of Go.
   * MySQL (4.1+), MariaDB, Percona Server, Google CloudSQL or Sphinx (2.2.3+)

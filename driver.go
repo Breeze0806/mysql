@@ -18,7 +18,6 @@ package mysql
 
 import (
 	"context"
-	"database/sql"
 	"database/sql/driver"
 	"net"
 	"sync"
@@ -81,5 +80,5 @@ func (d MySQLDriver) Open(dsn string) (driver.Conn, error) {
 }
 
 func init() {
-	sql.Register("mysql", &MySQLDriver{})
+	//sql.Register("mysql", &MySQLDriver{})
 }
